@@ -1,0 +1,15 @@
+commit 575317a5c186a2cd4dc8908fcf74f5d510fe1c76 (HEAD -> master, origin/master, bug3, bug2, bug1)
+Author: Viktor Stojanovski <viktorstojanovski32@gmail.com>
+Date:   Fri Apr 7 22:04:15 2023 +0200
+
+    Add java class
+
+commit b158f9db4a61c04e138695ccffc65f4c49b747ca
+Author: Viktor Stojanovski <viktorstojanovski32@gmail.com>
+Date:   Fri Apr 7 21:26:45 2023 +0200
+
+    Initial commit
+
+commit 4a91fbd28c93c1d3fa0e2c343286f174ea2e10d2
+Author: Viktor Stojanovski <viktorstojanovski32@gmail.com>
+Date:   Fri Apr 7 20:46:58 2023 +0200

@@ -1,0 +1,34 @@
+Документација по лабораториска вежба по предметот Софтверско Инженерство
+
+4.
+mkdir SI_2023_lab1_203126 - креирање на датотека.
+cd SI_2023_lab1_203126 - влегување во датотеката.
+git init - иницијализација на празен git репозиториум.
+
+5.
+git commit -m "first commit" - прв commit после иницијализација
+git branch -M master - креирање на master гранка
+git remote add origin https://github.com/zon1k57/SI_2023_lab1_203126 - поврзување на локален репозиториум со одалечениот репозиториум.
+git push -u origin master - локалните промени да ги ставам во одалечниот репозиториум.
+git status - проверка на статус
+
+6.Го креирав README.md со командата git add README.md, па после внатрешната промена(додавање на име,презиме и индекс), уште еднаш ја искористив git add README.md за да е во staged state.После ја искористив (git commit -m "Inital commit") за да направам локален commit на промените што ги направив.
+
+7.
+git status - проверка на статус
+git add SILab1.java - додавање на фајлот во staged state.
+git commit -m "Add java class" - додавање нов commit.
+
+8.
+git push -u origin master - локални промени ставени во одалечниот репозиториум.
+
+9.
+git branch bug1 - креирање на гранката bug1.
+git branch bug2 - креирање на гранката bug2.
+git branch bug3 - креирање на гранката bug3.
+(Напомена: сите се креираат во master гранката)
+
+10.
+git checkout bug1 - префрлање во гранката bug1.
+
+11.
