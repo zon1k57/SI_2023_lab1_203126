@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SILab1 {
     public static List<Integer> filterOddNumbers(List<Integer> list) {
         List<Integer> result = new ArrayList<>();
-        for (Integer el : list) {
+        for (int el = 0; el<list.size(); el++) {
             if (el % 2 == 0) {
                 result.add(el);
             }
