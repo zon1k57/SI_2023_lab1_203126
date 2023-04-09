@@ -31,7 +31,7 @@ public class SILab1 {
         List<Integer> list = new ArrayList<>();
 
         for (int i = 0; i <= n; i++) {
-            list.add(sc.nextInt());
+            list.add(i, sc.nextInt());
         }
 
         System.out.println(filterOddNumbers(list));
