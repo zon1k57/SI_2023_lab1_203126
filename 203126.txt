@@ -32,3 +32,66 @@ git branch bug3 - креирање на гранката bug3.
 git checkout bug1 - префрлање во гранката bug1.
 
 11.
+git add --a - додавање на сите промени во staged фаза(иако е само еден податок, полесно ми е да пишам --a отколку името на податокот, но ако не треба сите податоци да ги додадам, тогаш по име ќе ги додавам)
+git commit -m "Fix wrong loop for reading" - додавање нов commit.
+git push --set-upstream origin bug1 - синхронизација на одалечниот репозиториум со нова bug1 гранка
+
+12.
+git checkout bug2 - префрлање во гранка bug2.
+
+13.
+git add --a - додавање на сите промени во staged фаза.
+git commit -m "Fix wrong condition" - додавање нов commit.
+git push --set-upstream origin bug2 - синхронизација на одалечниот репозиториум со нова bug2 гранка.
+
+14.
+git checkout bug3 - префрлање во гранка bug3.
+
+15.
+git add SILab1.java - додавање на промеata во staged фаза.
+git commit -m "Fix method sumEvenNumbers" - додавање нов commit.
+git push --set-upstream origin bug3 - синхронизација на одалечниот репозиториум со нова bug3 гранка.
+
+16.
+Веќе го направив во чекорите 11,13,15 со командата git push --set-upstream origin, каде што после посебно ги пишував гранките.
+
+17.
+git checkout master - префрлање во гранка master.
+
+18.
+git checkout bug1 - префрлање во гранка bug1.
+git rebase master - проверка за дали треба да се направи rebase на гранката.
+git checkout master - префрлање во гранка master.
+git merge bug1 - спојување на гранката master со bug1.
+
+19.
+git push -u origin master - синхронизација со одалечниот репозиториум.
+
+20.
+git checkout bug2 - префрлање во гранка bug2.
+git rebase master - преместување на податоците за да се синхронизираат со master.
+git checkout master - префрлање во гранка master.
+git merge bug2 - спојување на гранката master со bug2.
+
+21.
+git push -u origin master - синхронизација со одалечниот репозиториум.
+
+22.
+git checkout bug3 - префрлање во гранка bug3.
+
+
+23.
+git rebase master - преместување на податоците за да се синхронизираат со master.
+
+24.
+git checkout master - префрлање во гранка master.
+
+25.
+git merge bug3 - спојување на гранката master со bug3.
+
+26.
+git push -u origin master - синхронизација со одалечниот репозиториум.
+
+28.
+git push -u origin master - синхронизација со одалечниот репозиториум само за logs документот и 203126 документот.
+

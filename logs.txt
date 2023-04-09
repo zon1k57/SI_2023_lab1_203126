@@ -1,4 +1,51 @@
-commit 575317a5c186a2cd4dc8908fcf74f5d510fe1c76 (HEAD -> master, origin/master, bug3, bug2, bug1)
+commit 8e23dc908ad3884b4c55cb1d47d21f8b81837222 (HEAD -> master, origin/master, origin/HEAD, bug3)
+Author: Viktor Stojanovski <viktorstojanovski32@gmail.com>
+Date:   Sun Apr 9 20:26:28 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 2e034f5e463047a822fe8f3a7d17d67710f6b74a (bug2)
+Author: Viktor Stojanovski <viktorstojanovski32@gmail.com>
+Date:   Sun Apr 9 20:19:39 2023 +0200
+
+    Fix wrong condition
+
+commit b250b5f0a082ab104e50c7a8b1c1a327a43d850d (origin/bug1, bug1)
+Author: Viktor Stojanovski <viktorstojanovski32@gmail.com>
+Date:   Sun Apr 9 20:10:23 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 7519b6d563fc2c382c66a1317c802777129faa0f
+Author: Viktor Stojanovski <viktorstojanovski32@gmail.com>
+Date:   Fri Apr 7 23:05:16 2023 +0200
+
+:
+commit 8e23dc908ad3884b4c55cb1d47d21f8b81837222 (HEAD -> master, origin/master, origin/HEAD, bug3)
+Author: Viktor Stojanovski <viktorstojanovski32@gmail.com>
+Date:   Sun Apr 9 20:26:28 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 2e034f5e463047a822fe8f3a7d17d67710f6b74a (bug2)
+Author: Viktor Stojanovski <viktorstojanovski32@gmail.com>
+Date:   Sun Apr 9 20:19:39 2023 +0200
+
+    Fix wrong condition
+
+commit b250b5f0a082ab104e50c7a8b1c1a327a43d850d (origin/bug1, bug1)
+Author: Viktor Stojanovski <viktorstojanovski32@gmail.com>
+Date:   Sun Apr 9 20:10:23 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 7519b6d563fc2c382c66a1317c802777129faa0f
+Author: Viktor Stojanovski <viktorstojanovski32@gmail.com>
+Date:   Fri Apr 7 23:05:16 2023 +0200
+
+    Adding logs and Index text document
+
+commit 575317a5c186a2cd4dc8908fcf74f5d510fe1c76
 Author: Viktor Stojanovski <viktorstojanovski32@gmail.com>
 Date:   Fri Apr 7 22:04:15 2023 +0200
 
@@ -13,3 +60,5 @@ Date:   Fri Apr 7 21:26:45 2023 +0200
 commit 4a91fbd28c93c1d3fa0e2c343286f174ea2e10d2
 Author: Viktor Stojanovski <viktorstojanovski32@gmail.com>
 Date:   Fri Apr 7 20:46:58 2023 +0200
+
+    first commit
